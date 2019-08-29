@@ -51,3 +51,35 @@ motorsList.stop(); //Tell all motors to stop, it will set their speed to 0
 motorsList.reverse(100); // Tell all motors m1 and m4 to go on reverse and tell m2 and m3 to go forward
 ```
 The last exemple can be usefull if you have a 4 motor setup and all the motors cannot be on the same direction
+
+## Installation : 
+Gradle : 
+```
+repositories {  
+  repositories {  
+	  maven {  
+            url "https://dl.bintray.com/pa1007/Raspberry-Pi-Robots-API"  
+	  }  
+    }
+}
+
+dependencies {     
+  compile 'fr.pa1007:motorapi:1.0'
+}
+```
+Maven : 
+```maven
+<repositories>  
+	<repository>  
+		<id>bintray-pa1007-Raspberry-Pi-Robots-API</id>  
+		<url>https://dl.bintray.com/pa1007/Raspberry-Pi-Robots-API</url>  
+	</repository>  
+</repositories>  
+
+    
+<dependency>
+  <groupId>fr.pa1007</groupId>
+  <artifactId>motorapi</artifactId>
+  <version>1.0</version>
+</dependency>
+```
