@@ -56,9 +56,7 @@ The last exemple can be usefull if you have a 4 motor setup and all the motors c
 Gradle : 
 ```
 repositories {  
-  repositories {  
-	jcenter()
-    }
+  jcenter()
 }
 
 dependencies {     
