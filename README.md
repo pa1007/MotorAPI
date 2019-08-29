@@ -57,9 +57,7 @@ Gradle :
 ```
 repositories {  
   repositories {  
-	  maven {  
-            url "https://dl.bintray.com/pa1007/Raspberry-Pi-Robots-API"  
-	  }  
+	jcenter()
     }
 }
 
